@@ -1,127 +1,52 @@
-/* código omitido */
-
-.cartao__conteudo__resposta{
-    transform: rotateY(180deg);
-    background-color: var(--card-back-color);
-}
-
-/* código omitido */
-/* código omitido */
-
-:root {
---text-color: #DBE4EF;
---card-front-color: #144480;
---card-back-color: #00F4BF;
-}
-
-/* código omitido */
-/* código omitido */
-
-.cartao__conteudo__resposta{
-    transform: rotateY(180deg);
-    background-color: rdba(0, 244, 191, 1);
-}
-
-/* código omitido */
-/* código omitido */
-
-.cartao__conteudo__resposta{
-    transform: rotateY(180deg);
-    background-color: rdba(0, 244, 191, 0.2);
-}
-
-/* código omitido */
-/* código omitido */
-
-.cartao__conteudo__resposta{
-    transform: rotateY(180deg);
-    background-color: rdba(0, 244, 191, 0.2);
-    border: 4px solid var(--card-back-color);;
-}
-
-/* código omitido */
-/* código omitido */
-
-.cartao_conteudo_pergunta,
-.cartao_conteudo_resposta {
-    backface-visibility: hidden;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-/* código omitido */
-/* código omitido */
-
-.cartao__conteudo p {
-    margin-top: 1rem;
-    padding: 2rem;
-    margin-top: 4rem;
-    font-size: 1.4vw;
-}
-
-/* código omitido */
-/* código omitido */
-
-@media (max-width: 560 px) {
-
-}
-/* código omitido */
-
-@media (max-width: 560 px) {
-
-    body {
-        background: url('img/bd-mobile.webp');
-    }
-
-}
-/* código omitido */
-
-@media (max-width: 560 px) {
-
-    body {
-        background: url('img/bd-mobile.webp');
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
     
-    .cartao {
-        flex: 1 0 calc(100% - 1rem);
-    }
+</body>
+</html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard</title>
+    <main>
 
-}
-/* código omitido */
+    </main>
+    <footer>
+        <p>Projeto desenvolvido pela Alura, sem fins lucrativos.</p>
+    </footer>
+    <main>
+    <section id="container"> 
 
-@media (max-width: 560 px) {
+</section>
+<article class="cartao">
+                <div class="cartao__conteudo">
 
-    body {
-        background: url('img/bd-mobile.webp');
-    }
-    
-    .cartao {
-        flex: 1 0 calc(100% - 1rem);
-    }
-    
-    .cartao__conteudo h3 {
-        font-size: 3vw;
-    }
-}
-/* código omitido */
+                </div>
+            </article>
+            <h3> Programação </h3>
+            <div class="cartao__conteudo__pergunta">
+O que é Java Script?
+</div>
+<div class="cartao__conteudo__resposta">
+O Java Script é uma linguagem de programação.
+</div>
 
-@media (max-width: 560 px) {
-
-    body {
-        background: url('img/bd-mobile.webp');
-    }
-    
-    .cartao {
-        flex: 1 0 calc(100% - 1rem);
-    }
-    
-    .cartao__conteudo h3 {
-        font-size: 3vw;
-    }
-    
-    .cartao__conteudo p {
-        font-size: 3.8vw;
-    }
-}
+<article class="cartao">
+        <div class="cartao__conteudo">
+                <h3> Programação </h3>
+                      <div class="cartao__conteudo__pergunta">
+                            O que é CSS?
+                        </div>                        
+                       <div class="cartao__conteudo__resposta">
+                            O CSS é uma linguagem de estilização.
+                         </div>
+                        </div>
+                            
+         </article>
+   
